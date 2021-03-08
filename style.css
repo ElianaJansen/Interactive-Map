@@ -1,0 +1,25 @@
+#map { height: 600px;
+    width: 100%;
+    height: 580px;
+    box-shadow: 5px 5px 5px black ;
+}
+
+/*-----------Control de Leyenda y Título------------------*/
+.legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    border-radius: 5px;
+}
+.legend h4 {
+    margin: 0 0 5px;
+    color: #555;
+    text-align: center;
+}
+.legend h5{
+    margin: 0 0 5px;
+    line-height: 18px;
+    color: #777;
+}
