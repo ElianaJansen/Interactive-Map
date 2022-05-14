@@ -4,7 +4,7 @@
         zoom: 15
         })
         //Aportado por el Instituto Geográfico Nacional
-	    let ign = L.tileLayer('https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png', {
+	    let ign = L.tileLayer('https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/argenmap_oscuro@EPSG%3A3857@png/{z}/{x}/{-y}.png', {
 	        attribution: '<a href="http://leafletjs.com" title="A JS library for interactive maps"></a> <a href="http://www.ign.gob.ar/AreaServicios/Argenmap/IntroduccionV2" target="_blank">Instituto Geográfico Nacional</a> + <a href="http://www.osm.org/copyright" target="_blank">OpenStreetMap</a>',
             minZoom: 2,
             maxZoom: 18
