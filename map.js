@@ -11,7 +11,7 @@
         }).addTo(map);      
         
         //Aportado por Esri
-	    let arcgis = L.tileLayer('https://services.arcgisonline.com/ArcGis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { ext: 'jpg',
+	    let arcgis = L.tileLayer('https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/capabaseargenmap@EPSG%3A3857@png/{z}/{x}/{-y}.png',
 	    }).addTo(map);
 
          //Agregar un cuadro de busqueda al mapa
